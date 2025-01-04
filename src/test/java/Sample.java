@@ -11,4 +11,10 @@ public class Sample {
         System.out.println("Title "+driver.getTitle());
         driver.quit();
     }
+
+    @Test
+    public void test2() throws Exception {
+        //throw some exception
+        throw new Exception("Some exception");
+    }
 }
